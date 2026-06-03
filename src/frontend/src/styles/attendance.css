@@ -1,0 +1,130 @@
+.attendance-page {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+
+.attendance-card,
+.summary-card {
+  background: white;
+
+  padding: 24px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 24px;
+}
+
+.attendance-card h1,
+.summary-card h2 {
+  margin-bottom: 20px;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table th {
+  background: #f5f5f5;
+  text-align: left;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.summary-grid {
+  display: flex;
+  gap: 60px;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-item span {
+  color: #666;
+  font-size: 14px;
+}
+
+.summary-item strong {
+  font-size: 32px;
+  color: #5f7df5;
+}
+body {
+  background-color: #f3f4f6;
+}
+.month-selector {
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.month-selector label {
+  font-weight: bold;
+}
+
+.month-selector input {
+  padding: 8px 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  background: white;
+}
+.header {
+  height: 64px;
+
+  background: #637cef;
+
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 24px;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header-left span {
+  font-size: 16px;
+}
+
+.header-right {
+  font-size: 24px;
+  cursor: pointer;
+}
+.back-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  opacity: 0.9;
+}

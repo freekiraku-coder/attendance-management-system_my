@@ -96,7 +96,7 @@ http://localhost:5173
 
 | 項目          | バージョン |
 | ----------- | ----- |
-| Java        | 21    |
+| Java        | 25.x  |
 | Spring Boot | 3.x   |
 | Node.js     | 22.x  |
 | React       | 19.x  |
